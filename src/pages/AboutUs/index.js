@@ -32,29 +32,34 @@ import {
   iconLogo2,
 } from "../../components/imageImport";
 
+import avaneesh from "../../assets/images/team/avaneesh.jpeg";
+import nishant from "../../assets/images/team/nishant.jpeg";
+import harsh from "../../assets/images/team/harsh.jpeg";
+import harshK from "../../assets/images/team/harshK.png";
+
 import StyleSwitcher from "../../components/StyleSwitcher";
 
 const AboutUs = () => {
   const navigate = useNavigate();
   const clientRecord = [
     {
-      image: client01,
-      name: "Calvin Carlo",
-      position: "Designer",
+      image: harshK,
+      name: "Harsh Khatter",
+      position: "Coordinator",
     },
     {
-      image: client02,
-      name: "Aliana Rosy",
-      position: "Designer",
+      image: avaneesh,
+      name: "Avaneesh Singh",
+      position: "Full Stack Developer",
     },
     {
-      image: client08,
-      name: "Micheal Carlo",
-      position: "Designer",
+      image: nishant,
+      name: "Nishant Varshney",
+      position: "Frontend Developer",
     },
     {
-      image: client03,
-      name: "Sofia Razaq",
+      image: harsh,
+      name: "Harsh Kumar",
       position: "Designer",
     },
   ];
